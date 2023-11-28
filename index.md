@@ -1,16 +1,22 @@
 # Capstone Example Jekyll Website
-Medha Upadhyay (mupadhya@ucsd.edu)
+Medha Upadhyay (mupadhya@ucsd.edu) <br> 
 Section A18: Blockchain with mentor Sheffield Nolan
 
 **What is the most interesting topic covered in your domain this quarter?** <br> 
-answer
+The most interesting topic covered in our domain this quarter has been smart contracts. Smart contracts allow code to be executed on the blockchain. <br> 
+Smart contracts can be written in various languages. The most active and maintained languages are Solidity and Vyper. More experienced developers might use Yul, while Fe is a new smart contract language that is still under development. Solidity is a statically typed high-level language most profoundly influenced by C++. Vyper is a Pythonic programming language that has less features than Solidity but is very human readable and easy to debug. Fe is inspired by Python and Rust and was first released in 2021. <br>
+
+Any contract data must be assigned to a location, either “storage” or “memory.” Storage is persistent data, and these values are stored permanently on the blockchain. Memory holds values just during a contract function’s execution; since these values are not stored on the blockchain, they are much cheaper to use. Functions can get information or set information in response to incoming transactions. <br>
+
+Smart contracts also have to be tested because vulnerabilities in the code can lead to users losing large amounts of money. Smart contracts can be tested using automated testing or manual testing. Automated testing involves scripts that can run tests over and over with minimal human oversight. This makes it easy to run tests that are repetitive and time consuming or susceptible to human error. However, automated testing might miss some bugs, so it should be paired with manual testing. Manual testing involves an individual or group running test cases in a specified order. This is beneficial because the human tester can use their intuition to detect edge cases than an automated tool would miss. Testing can occur on local blockchain or testnet, depending on the specific scenario. <br>
 
 **Describe a potential investigation you would like to pursue for your Quarter 2 Project.** <br> 
-answer
+A potential investigation I would like to pursue is creating a model to analyze transactions on blockchain in order to find the ideal time to complete a transaction. Completing a blockchain transaction requires the user to pay a set base fee along with a priority fee. Priority fee is a tip the user adds to make their transaction attractive to validators; essentially bidding for the transaction to be included in the next block. High demand means that users must offer higher tips to outbid other users’ transactions. <br>
+A potential project could look at historical transaction data and predict the priority fees required at certain times. By analyzing the number of transactions submitted at any given time and the priority fees required at those times, the model can make a prediction of fees needed in the future. This would give users a better sense of when they should attempt their transactions in order to pay less fees. <br>
 
 **What is a potential change you’d make to the approach taken in your current Quarter 1 Project?** <br> 
-answer
+Our Quarter 1 Project so far has been taking steps toward the final Quarter 2 Project (decentralized escrow smart contracts). So far, we have done a lot of reading and we only started doing transactions recently. We also have not actually written any code until now. A potential change I would suggest is getting a little more hands-on earlier on because it has been a lot of theory and not a lot of actual work. I think some more intergration of actually getting familiar with smart contracts can happen in parallel with the readings. Otherwise, you can get a little lost in the readings. <br>
 
 **What other techniques would you be interested in using in your project?** <br>
-answer
+I would be interested in using some kind of dashboard in order to display data in an interactive way. For my potential investigation of a model that can predict priority fees at certain times, I think that having an interactive dashboard for users would be very helpful. This would allow users to see predicted fees over all times in a given time period, along with the best times highlighted for the user's convenience. <br>
 
