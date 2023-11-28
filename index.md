@@ -1,5 +1,4 @@
-# Capstone Example Jekyll Website
-Medha Upadhyay (mupadhya@ucsd.edu) <br> 
+# Medha Upadhyay (mupadhya@ucsd.edu) <br> 
 Section A18: Blockchain with mentor Sheffield Nolan
 
 **What is the most interesting topic covered in your domain this quarter?** <br> 
