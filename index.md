@@ -1,3 +1,6 @@
 # Capstone Example Jekyll Website
+Medha Upadhyay (mupadhya@ucsd.edu)
+Section A18: Blockchain with mentor Sheffield Nolan
 
-This is about as **barebones** as a Jekyll site can be. All I've done is embed a plotly plot here.
+**Q1** 
+answer
